@@ -15,7 +15,7 @@ Anggota Kelompok :
 
 *  Di dalam struktur database MySQLnya, program ini menggunakan database dengan nama **sea_threat_damage_monitor** yang terdiri dari **4** tabel/entitas, yaitu 
 entitas **Masyarakat, Admin, Aduan, dan Data_kerusakan**. Semua 4 entitas tersebut menggunakan atribut **"ID"** sebagai **primary key** *( ex : ID_Aduan, ID_Admin, ID_Masyarakat, ID_Data )*.
-Selain primary key, di entitas **"Masyarakat"** terdapat atribut ***"nama_lengkap"***, ***"alamat_rumah"***, ***"no_hp"***. Sedangkan di entitas **"Admin"**, terdapat atribut ***"nama_lengkap"***, ***"no_hp_admin***, dan ***"email"***. Selanjutnya, di entitas **"Aduan"** terdapat atribut ***"lokasi"***, ***"tanggal"*** , ***"keterangan_aduan"***, dan ada atribut ***"ID_Masyarakat"*** yang dihubungkan dengan *foreign key*. Terakhir, yaitu entitas **"Data_kerusakan"**. **"Data_kerusakan"** memiliki atribut 
+Selain primary key, di entitas **"Masyarakat"** terdapat atribut ***"nama_lengkap"***, ***"alamat_rumah"***, ***"no_hp"***. Sedangkan di entitas **"Admin"**, terdapat atribut ***"nama_lengkap"***, ***"no_hp_admin***, dan ***"email"***. Selanjutnya, di entitas **"Aduan"** terdapat atribut ***"lokasi"***, ***"tanggal"*** , ***"keterangan_aduan"***, dan ada atribut ***"ID_Masyarakat"*** yang dihubungkan dengan *foreign key*. Terakhir, yaitu entitas **"Data_kerusakan"**. **"Data_kerusakan"** memiliki atribut ***"lokasi"***, ***"tanggal"*** , ***"jenis_kerusakan"***, ***"deskripsi"***, ***"jumlah_kerusakan"***, dan atribut ***"ID_Admin"*** dari entitas **Admin** yang dihubungkan dengan *foreign key*.
 
 
 
