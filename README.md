@@ -13,5 +13,10 @@ Anggota Kelompok :
 
 *  Program kami ini dapat dipakai Multiuser dan terdapat 2 user dengan privelege yang berbeda. Pertama, user masyarakat. Masyarakat dapat melaporkan kondisi atau masalah terkait ekosistem laut disekitarnya serta dapat melihat data data kerusakan. Kedua, user admin. Admin pendataan bertanggung jawab menganalisis dan menyajikan data kerusakan yang terjadi di lingkungan laut seperti jumlah trumbu karang yang rusak, rumput laut yang rusak letak laut yang rusak dan dapat menyajikan hasil statistik kepada masyarakat yang menggunakan aplikasi ini.
 
-*  Di dalam struktur database MySQL pada program ini menggunakan database dengan nama **sea_threat_damage_monitor** yang terdiri dari **4** tabel/entitas, yaitu 
-entitas ***Masyarakat, Admin, Aduan, dan Data_kerusakan***.
+*  Di dalam struktur database MySQLnya, program ini menggunakan database dengan nama **sea_threat_damage_monitor** yang terdiri dari **4** tabel/entitas, yaitu 
+entitas ***Masyarakat, Admin, Aduan, dan Data_kerusakan***. Semua 4 entitas tersebut menggunakan atribut "ID" sebagai **primary key** *(ex : ID_aduan, ID_admin, etc)*.
+Selain primary key, di entitas masyarakat terdapat atribut "nama_lengkap", "alamat_rumah", "no_hp". Sedangkan di entitas Admin, terdapat atribut "nama"
+
+
+
+# 📝📌 Struktur Project
