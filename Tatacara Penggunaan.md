@@ -27,5 +27,10 @@
 
 ![image](https://github.com/PA-KELOMPOK-11-ASD-X-DBMS/PA-B23-KELOMPOK11/assets/98721112/1c658221-6e59-4acf-8dd0-9c96eae00f54)
 
-- **Login** : Gunakan akun yang sudah anda buat untuk login dengan memasukkan NIK atau nomor KTP sebagai password dan juga memasukkan nama yang sesuai pada saat melakukan registrasi.
+- **Login** : Gunakan akun yang sudah anda buat untuk login dengan memasukkan NIK atau nomor KTP sebagai password dan juga memasukkan nama yang sesuai pada saat melakukan registrasi. Ouput akan menunjukkan bahwa anda berhasil login apabila data yang dimasukkan sesuai dengan database pengguna yang ada.
+
+### 📌 Menu User
+Ada 5 opsi yang bisa anda pilih
+#### Melihat data kerusakan
+
 
