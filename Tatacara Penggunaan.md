@@ -1,14 +1,21 @@
 # Tata Cara Penggunaan Program
-- USER
+- [ MENU AWAL. ](#awal)
+- [ USER. ](#user)
 -
 -
--
+
+
+
+
+<a name="awal"></a>
 ## MENU AWAL
 ![image](https://github.com/PA-KELOMPOK-11-ASD-X-DBMS/PA-B23-KELOMPOK11/assets/98721112/78b4cb2d-253f-49f4-8661-e3f0564cfeea)
 
   Ada 2 opsi pada menu awal program :
   - Opsi pertama digunakan untuk login user atau admin, tergantung namauser dan password masing-masing pengguna.
   - Opsi kedua digunakan untuk registrasi pengguna baru agar dapat login menggunakan akun yang akan dibuat dan mengakses aplikasi.
+
+<a name="awal"></a>
 ## USER
 ### Cara Registrasi
 
